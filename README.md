@@ -14,7 +14,7 @@ case 'jomok': {
     base.sendMessage(m.chat, {
       image: { url: random }
     }, { quoted: m });
-  } catch (err) {
+  } catch (err) { 
     console.error(err);
     m.reply('gagal ambil foto jomok.');
   }
